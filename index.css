@@ -1,0 +1,20 @@
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    padding:1rem;
+}
+.list{
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+}
+header, footer{
+    background-color: black;
+    display:grid;
+    width:  100%;
+    grid-template-columns: 225px 1fr ;
+
+}
+h2{
+    color: whitesmoke;
+    font-size: 50px;
+}
