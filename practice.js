@@ -13,4 +13,6 @@ let currentdate = document.lastModified;
 
 console.log(currentdate);
 
-document.querySelector('div').textContent = currentdatef
+document.querySelector('div').textContent = currentdate;
+
+document.querySelector('.year').textContent = year;
