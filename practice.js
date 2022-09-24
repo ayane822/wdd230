@@ -16,3 +16,5 @@ console.log(currentdate);
 document.querySelector('div').textContent = currentdate;
 
 document.querySelector('.year').textContent = year;
+
+`There are ${daycount} days until ${targetEvent}!`
