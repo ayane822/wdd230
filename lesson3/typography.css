@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital@1&family=Open+Sans:wght@500&family=Recursive&family=Rowdies:wght@300&display=swap');
+/* REPEAT */
+/* everything is the same  */
+body{
+    text-align: center;
+    color:#5F4944;
+    font-family: 'Open Sans', sans-serif
+}
+header,footer{
+    background-color: #E7D7C1;
+}
+h1{
+    color: #5F4944;
+    text-align: center;
+}
+h2{
+    margin:2rem;
+}
+a{
+    color: #5F4944
+}
+a:hover{
+    color: #AFBC88
+}
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
+}
+nav ul li a{
+    display: block;
+	padding: 0.50rem;
+	text-decoration: none;
+}
+ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
+    font-size: 22px;
+}
+
+
+.title{
+    font-family: 'Roboto Mono', monospace;
+}
+.font1{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #DAA9AC;
+  
+}
+.font2{
+    font-family: 'Roboto Mono', monospace;
+    background-color: #DAA9AC;
+   
+}
+
+@media screen and (max-width:550px){
+    ul{
+        display: block;
+    }}
+
+@media screen and (min-width:1000px){
+    .font1, .font2{
+        margin-left:20rem;
+        margin-right:20rem;
+    }
+}
