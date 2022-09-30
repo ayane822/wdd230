@@ -10,7 +10,7 @@ h1{
     color: #5F4944;
     text-align: center;
 }
-h2{
+.title{
     margin:2rem;
 }
 a{
@@ -35,9 +35,20 @@ ul {
 }
 
 p{
-    font-size: 25px;
+    font-size: 23px;
+}
+nav ol li{
+    font-size: 22px;
 }
 @media screen and (max-width:550px){
     ul{
         display: block;
     }}
+
+@media screen and (min-width:650px){
+#personas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:1rem;
+}
+}
