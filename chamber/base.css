@@ -1,0 +1,30 @@
+header,footer{
+    background-color: #E7D7C1;
+}
+h1{
+    color: #5F4944;
+    text-align: center;
+}
+h2{
+    margin:2rem;
+}
+a{
+    color: #5F4944
+}
+a:hover{
+    color: #AFBC88
+}
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
+}
+nav ul li a{
+    display: block;
+	padding: 0.50rem;
+	text-decoration: none;
+}
+ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
+    font-size: 22px;
+}
