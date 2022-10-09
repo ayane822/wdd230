@@ -4,20 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber</title>
     <link rel="stylesheet" href="base.css">
     <link rel="stylesheet" href="medium.css">
     <link rel="stylesheet" href="large.css">
-    <title>Chamber</title>
+    <script defer src="chamber.js"></script>
 </head>
 <body>
 <header>
-    <h1>Kawajiri Chamber of Commerce</h1>
-    <h3>667 S 2nd E Rexburg, Idaho 83440</h3>
-    <a href="#">Kawajiri@daisuki.com</a>
-    <p>+(208) 206-7783</p>
-    <p>Location Map</p>
-    <div id="today"></div>
-    <nav>
+<div class = parent1>
+    <div class="img">
+        <img src="images/logo.png" alt="pic is not available" width="150">
+    </div>
+    <div class="child2">
+    <h1>Kawajiri</h1>
+    <h2>Chamber of Commerce</h2>
+    </div>
+    <nav class="large">
         <ul>
             <li> <a href="#">Discover</a></li>
             <li> <a href="#">Directory</a></li>
@@ -25,10 +28,29 @@
             <li> <a href="#">Contact</a></li>
         </ul>
     </nav>
+    <nav class="medium">
+        <buttom class="ham" href="#">&#9776;</buttom>
+        <ul class="medium">
+        <li class="active"><a href="#">Home</a></li>
+        <li> <a href="#">Discover</a></li>
+        <li> <a href="#">Directory</a></li>
+        <li> <a href="#">Join</a></li>
+        <li> <a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="social">
+        <a href="https://www.instagram.com/aya.ne.kuro822/">
+            <img src="https://cdn.glitch.global/2b24100f-73b8-4a26-bef0-7e7b24eb9e97/rsz_instagram.jpg?v=1642239616371" alt="Instagram icon" width="70"></a>
+        <a href="https://www.facebook.com/profile.php?id=100013006603342">
+            <img src="https://cdn.glitch.global/2b24100f-73b8-4a26-bef0-7e7b24eb9e97/facebook.pic%20.png?v=1642239605916" alt="Facebook icon" width="70"></a>
+    </div>
+</div>
+    <div id="today"></div>
 </header>
+
 <main>
 <div class="wrapper">
-    <p class="p1">Here with site name and call to action</p>
+    <p class="p1">Hero with site name and call to action</p>
     <p class="p2">Event</p>
     <p class="p3">Weather</p>
     <p class="extra">Join</p>
@@ -39,23 +61,32 @@
    
 </div>
 </main>
+
 <footer>
     <div id="parent">
-        <img src="images/logo.png" alt="pic is not available" width="300">
+    <div class="img">
+    <img src="images/logo.png" alt="pic is not available" width="200">
+    </div>
     <div class="n2">
     <h2>Kure City Chamber of Commerce</h2>
     <p>667 S 2nd E, Rexburg, Idaho 83440</p>
     </div>
     <div class="n3">
-    <a href="#">Kawajiri@daisuki.com</a>
+    <p><a href="#">Kawajiri@daisuki.com</a></p>
     <p>+(208) 206-7783</p>
-    <p class="koko">Location Map</p>
+    <p class="koko">📍Location Map</p>
     </div>
+    </div>
+    <div id="last">
     <p>&copy;2022 Kawajiri Chamber</p>
     <p>Aya Kurokawa</p>
     <p>WDD 230 Project</p>
-    <div id="last-update"></div>
+    <p class="update"
+    <p id="last-update"></p>
+    </p>
     </div>
+
+   
 </footer>    
 </body>
 </html>
