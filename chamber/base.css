@@ -136,10 +136,10 @@ label .menu {
 .wrapper{
     gap:5px;
 }
-.p1{
-    border: 1px solid;
+.p1 {
+    border: 1px solid; 
     margin: 7px;
-    height: 200px;
+    height: 200px;   
 }
 .extra{display:none;}
 .p2{
