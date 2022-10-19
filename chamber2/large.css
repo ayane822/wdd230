@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital@1&family=Open+Sans:wght@500&family=Recursive&family=Rowdies:wght@300&display=swap');
-    @media screen and (min-width: 1150px){
+@media screen and (min-width: 1150px){
         /*header and footer*/
     header,footer{
         background-color: #E7D7C1;
@@ -94,6 +93,8 @@
 .d1 img{
     height:650px;
     width:100%;
+    /* background-image: url("images/haigamine.webp"); */
+    object-fit: cover;
 }
 .d1 p{
     position: absolute;
@@ -145,19 +146,19 @@
     text-align: center;
     color:#FFF
 }
-.weather{
+#weather{
     grid-column: 1/2;
     grid-row: 2/3; 
     background-color: #8fc6e4;
     margin-right:20px;
     margin-left:20px;
-}
-.weather p{
-    font-family: 'Open Sans', sans-serif;
     text-align: center;
+}
+#weather p{
+    font-family: 'Open Sans', sans-serif;
     color:#FFF
 }
-.weather h2{
+#weather h2{
     font-family:'Roboto Mono', monospace;
     font-size: 30px;
     color: #FFF;
@@ -166,7 +167,11 @@
     1px 2px #bbb,
     2px 3px #bbb,
     3px 7px 6px #000000;
-    text-align: center;
+}
+#weather img{
+    width: 100px;
+    margin-top: -10px;
+    margin-bottom: -10px;
 }
 .join{
     grid-column: 1/2;

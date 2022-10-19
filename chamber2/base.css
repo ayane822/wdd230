@@ -140,6 +140,8 @@
         .d1 img{
             height:300px;
             width:100%;
+            object-fit: cover;
+            /* background-image: url("images/kure.webp"); */
         }
         .d1 p{
             position: absolute;
@@ -189,17 +191,17 @@
             text-align: center;
             color:#FFF
         }
-        .weather{
+        #weather{
             background-color: #8fc6e4;
             margin-right:35px;
             margin-left:35px;
-        }
-        .weather p{
-            font-family: 'Open Sans', sans-serif;
             text-align: center;
+        }
+        #weather p{
+            font-family: 'Open Sans', sans-serif;
             color:#FFF
         }
-        .weather h2{
+        #weather h2{
             font-family:'Roboto Mono', monospace;
             font-size: 30px;
             color: #FFF;
@@ -208,7 +210,10 @@
             1px 2px #bbb,
             2px 3px #bbb,
             3px 7px 6px #000000;
-            text-align: center;
+        }
+        #weather img{
+            width:110px;
+    
         }
         .join{
             display:none;

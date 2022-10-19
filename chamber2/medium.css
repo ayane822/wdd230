@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital@1&family=Open+Sans:wght@500&family=Recursive&family=Rowdies:wght@300&display=swap');
-  @media screen and (min-width:800px) and (max-width: 1150px){
+@media screen and (min-width:800px) and (max-width: 1150px){
       /*header and footer*/
     header,footer{
       background-color: #E7D7C1;
@@ -156,7 +155,7 @@ font-size: 35px;
 .wrapper{
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 350px 280px 475px 200px 300px;
+  grid-template-rows: 350px 280px 475px 200px 350px;
 }
 .d1{
   margin: 8px;
@@ -167,6 +166,9 @@ font-size: 35px;
 .d1 img{
   height:300px;
   width:100%;
+  object-fit: cover;
+  /* background-image: url("images/kuresi.webp"); */
+  
 }
 .d1 p{
   position: absolute;
@@ -218,18 +220,18 @@ font-size: 35px;
   text-align: center;
   color:#FFF
 }
-.weather{
+#weather{
   grid-row: 5/6;
   grid-column: 2/3;
   background-color: #8fc6e4;
   margin:15px;
-}
-.weather p{
-  font-family: 'Open Sans', sans-serif;
   text-align: center;
+}
+#weather p{
+  font-family: 'Open Sans', sans-serif;
   color:#FFF
 }
-.weather h2{
+#weather h2{
   font-family:'Roboto Mono', monospace;
   font-size: 30px;
   color: #FFF;
@@ -238,7 +240,12 @@ font-size: 35px;
   1px 2px #bbb,
   2px 3px #bbb,
   3px 7px 6px #000000;
-  text-align: center;
+  margin-top: 0px;
+}
+#weather img {
+  width:110px;
+  margin-top: -10px;  
+  margin-bottom: -10px;
 }
 .join{
   grid-column: 1/3;

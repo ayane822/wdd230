@@ -17,24 +17,14 @@ let day = weekday[d.getDay()];
 document.getElementById("today").innerHTML = day;
 
 
-// var messageList = $('#messages');
+const temp = document.querySelector('#t').textContent;
+const windspeed = document.querySelector('#ws').textContent;
 
-// //openweathermap（天気予報API）に接続
-// var request = new XMLHttpRequest();
-// var cityName = "Kure";
-// var owmApiKey = "自分が取得したAPI";
-// var owmURL = "http://api.openweathermap.org/data/2.5/weather?q="+ cityName +"&APPID="+ owmApiKey +"";
+if (temp < 50 && windspeed >4.8) {
+    let chill = Math.round((35.74 + (0.6215 * temp))-(35.75 * Math.pow
+        (windspeed,0.16)) + (0.4275*temp*Math.pow(windspeed,0.16)));
 
-// request.open('GET', owmURL, true);
-// //結果をjson型で受け取る
-// request.responseType = 'json';
+    const windchill = document.querySelector('#wc')
 
-// request.onload = function () {
-//  var data = this.response;
-//  console.log(data);
-//  var messageElement = $("<il><p class='weather'>" + data["weather"][0]["main"] + "</p></il>");
-//  //HTMLに取得したデータを追加する
-//  messageList.append(messageElement);
-// };
-
-// request.send();
+    windchill.textContent = chill;
+}
