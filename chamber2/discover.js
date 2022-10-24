@@ -1,0 +1,1 @@
+let current = Date.now();
