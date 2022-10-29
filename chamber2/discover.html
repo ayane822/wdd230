@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="discover.css">
+    <script defer src="discover.js"></script>
     <title>Discover</title>
 </head>
 <header>
@@ -52,13 +53,13 @@
     <div class="picture">
     <div class="pic1">
         <picture>
-            <img src="images/haigamine.webp" alt="#">
+            <img class="lazy" src="images/placeholder.png" data-src="images/haigamine.webp" alt="#"/>
         </picture>
         <h2>Haigamine</h2>
     </div>
     <div class="pic2">
         <picture>
-            <img src="images/tetu.jpg" alt="#">
+            <img class="lazy" src="images/placeholder.png" data-src="images/tetu.jpg" alt="#">
         </picture>
         <h2>Submarine</h2>
     </div>
@@ -107,6 +108,8 @@
     </div>
 </main>
 <footer>
-    <h1>footer</h1>
+    <div class="update">
+        <p id="last-update"></p></div>
+    </div>
 </footer>
 </html>
