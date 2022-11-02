@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital@1&family=Open+Sans:wght@500&family=Recursive&family=Rowdies:wght@300&display=swap');
+:root {
+	 --back: rgb(38, 115, 74);
+   --back2: hsla(150, 50%, 30%, .5); 
+  --foredark: hsla(0,0%,10%,1);
+	--forelight: hsla(0,0%,100%,1);
+	--border: hsl(0,0%,20%);
+	--borderlight: rgb(122, 122, 122);
+	--shadow: hsl(0,0%,50%);
+	--zebra: hsl(0, 0%, 93%, 1); 
+}
+
+table {
+	margin: 10px auto;
+	border: thin solid var(--border);
+	box-shadow: 0 0 30px var(--shadow);
+	border-collapse: collapse;
+	font-family :'Open Sans', sans-serif;
+}
+
+caption {
+  padding: 10px;
+  caption-side: bottom;
+	color: var(--back);
+	font-size: .85rem;
+}
+
+tr:first-child th, .highlight {
+	background-color: var(--back);
+	color: var(--forelight);
+}
+
+th, td {
+	padding: 7px 15px;
+	border: 1px solid var(--borderlight);
+}
+
+th {
+	background-color: var(--back2);
+}
+
+td {
+	text-align: center;
+}
+
+tbody tr:nth-child(even) {
+	background-color: var(--zebra);
+}
+tfoot{
+	font-size: small;
+}
