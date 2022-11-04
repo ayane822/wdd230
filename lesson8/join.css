@@ -351,9 +351,6 @@ img{
     display:none;
 }
 
-
-
-
 #parent{
     display: grid;
     grid-template-columns: 25% 45% 30%;
@@ -363,3 +360,6 @@ img{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     border-top: 1px solid;
 }}
+
+/* BODY */
+

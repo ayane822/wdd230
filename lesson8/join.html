@@ -49,5 +49,53 @@
         </div>
             <div id="today"></div>
     </header>
+    <main>
+        <form method="get" action="thankyou.html">
+            <label for="fname">First Name: </label>
+            <input id="fname" type="text" name="firstname" required>
+            <label for="lname">Last Name: </label>
+            <input id="lname" type="text" name="lastname" required>
+            
+            <label for="title">Business Position Title: (only letters, spaces and dashes
+                and at least 7 characters): </label>
+            <input required id="title" type="text" name="title" pattern="[- A-za-z]+" minlength="7">
+            <label for="email">Email:</label>
+            <input id="email" type="email" name="email">
+
+            <label for="phone">Cell Number :</label>
+            <input id="phone" type="tel" name="cell" required>
+
+            <label for="member">Enter Your Mebmbership</label>
+            <div id="radio">
+                <div class="radio">
+                <input type="radio" id="one" name="mlevel" value="level1">
+                <label for="one">Level 1</label>
+                </div>
+
+                <div class="radio">
+                <input type="radio" id="one" name="mlevel" value="level2">
+                <label for="one">Level 1</label>
+                </div>
+
+                <div class="radio">
+                <input type="radio" id="one" name="mlevel" value="level3">
+                <label for="one">Silver</label>
+                </div>
+
+                <div class="radio">
+                <input type="radio" id="one" name="mlevel" value="level3">
+                <label for="one">Gold</label>
+                </div>
+            </div>
+            
+            <label for="message">Business Description: </label>
+            <textarea id="message" placeholder="your biz description here"></textarea>
+            
+            <input id="date" type="hidden" name="todaydate">
+
+            <input type="submit" value="join the Chamber">
+                
+        </form>
+    </main>
 </body>
 </html>
