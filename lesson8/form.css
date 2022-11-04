@@ -49,3 +49,6 @@ tbody tr:nth-child(even) {
 tfoot{
 	font-size: small;
 }
+#ita{
+	font-style: italic;
+}
