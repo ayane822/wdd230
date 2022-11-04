@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital@1&family=Open+Sans:wght@500&family=Recursive&family=Rowdies:wght@300&display=swap');
-:root {
+/* :root {
 	 --back: rgb(38, 115, 74);
    --back2: hsla(150, 50%, 30%, .5); 
   --foredark: hsla(0,0%,10%,1);
@@ -8,8 +8,9 @@
 	--borderlight: rgb(122, 122, 122);
 	--shadow: hsl(0,0%,50%);
 	--zebra: hsl(0, 0%, 93%, 1); 
-}
+} */
 
+/* 
 table {
 	margin: 10px auto;
 	border: thin solid var(--border);
@@ -51,4 +52,147 @@ tfoot{
 }
 #ita{
 	font-style: italic;
+} */
+
+
+
+table {
+    margin: 0 auto;
+    font-family: 'Ubuntu',sans-serif;
+    box-shadow: 10px 5px 10px #7d9fb5;
+    border-collapse: collapse;
 }
+
+.header_portion {
+    color: #fcffff;
+    background-color: #628ca6;
+    padding: 10px;
+   
+}
+
+#acme_header {
+    background-color: #7eb8c2;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+
+th,tbody,tfoot{
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #b8c2c3;
+    padding: 0px;
+  }
+
+  tbody {
+    border-style: solid;
+    border-color: #b8c2c3;
+  }
+
+ td {
+    padding: 10px;
+ }
+ 
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+ 
+  tbody tr:nth-child(odd) {
+    background-color: #e4f6ec;
+  }
+ 
+  tfoot {
+    font-size: small;
+    background-color: #7eb8c2;
+  }
+ 
+  th{
+    font-weight: bolder;
+    font-size: larger;
+    padding: 10px;
+  }
+
+  #november_price {
+    background-color: #628ca6;
+    color: #ffffff;
+  }
+
+  #black_friday {
+    font-style: italic;
+  }
+
+  @media only screen and (max-width: 426px) {
+    table {
+      margin: 0 auto;
+      font-family: 'Ubuntu',sans-serif;
+      box-shadow: 10px 5px 10px #7d9fb5;
+      border-collapse: collapse;
+      margin-top: 50px;
+  }
+ 
+  .header_portion {
+      color: #fcffff;
+      background-color: #628ca6;
+      padding: 10px;
+     
+  }
+ 
+  #acme_header {
+      background-color: #7eb8c2;
+      font-weight: bold;
+      font-size: x-large;
+      font-family: 'Ubuntu', sans-serif;
+ 
+  }
+ 
+ 
+ 
+  th,tbody,tfoot{
+      text-align: center;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #b8c2c3;
+      padding: 0px;
+    }
+ 
+    tbody {
+      border-style: solid;
+      border-color: #b8c2c3;
+    }
+ 
+   td {
+      padding: 10px;
+   }
+   
+    tbody tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+   
+    tbody tr:nth-child(odd) {
+      background-color: #e4f6ec;
+    }
+   
+    tfoot {
+      font-size: small;
+      background-color: #7eb8c2;
+    }
+   
+    th{
+      font-weight: bolder;
+      font-size: larger;
+      padding: 10px;
+    }
+ 
+    #november_price {
+      background-color: #628ca6;
+      color: #ffffff;
+    }
+ 
+    #black_friday {
+      font-style: italic;
+    }
+  }
