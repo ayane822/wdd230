@@ -9,48 +9,7 @@
     <script defer src="join.js"></script>
 </head>
 <body>
-    <header>
-        <div class = parent1>
-            <div class="img">
-                <img src="../chamber2/images/logo.webp" alt="pic is not available">
-            </div>
-            <div class="child2">
-            <h1>Kawajiri</h1>
-            <h2>Chamber of Commerce</h2>
-            </div>
-            <!-- large -->
-            <nav class="large">
-                <ul>
-                    <li> <a href="../chamber2/index.html">Home</a></li>
-                    <li> <a href="../chamber2/discover.html">Discover</a></li>
-                    <li> <a href="#">Directory</a></li>
-                    <li> <a href="#">Join</a></li>
-                    <li> <a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        <!--mediam and small -> hamberger -->
-        <label>
-        <input type="checkbox">
-        <span class="menu"> <span class="hamburger"></span> </span>
-        <ul>
-            <li> <a href="../chamber2/index.html">Home</a></li>
-            <li> <a href="../chamber2/discover.html">Discover</a></li>
-            <li> <a href="#">Directory</a></li>
-            <li> <a href="#">Join</a></li>
-            <li> <a href="#">Contact</a></li>
-        </ul>
-        </label>
-            <div class="social">
-                <a href="https://www.instagram.com/aya.ne.kuro822/">
-                    <img src="https://cdn.glitch.global/2b24100f-73b8-4a26-bef0-7e7b24eb9e97/rsz_instagram.jpg?v=1642239616371" alt="Instagram icon"></a>
-                <a href="https://www.facebook.com/profile.php?id=100013006603342">
-                    <img src="https://cdn.glitch.global/2b24100f-73b8-4a26-bef0-7e7b24eb9e97/facebook.pic%20.png?v=1642239605916" alt="Facebook icon"></a>
-            </div>
-        </div>
-            <div id="today"></div>
-    </header>
-    <main>
-        <form method="get" action="thankyou.html">
+    <form method="get" action="thankyou.html">
             <label for="fname">First Name: </label>
             <input id="fname" type="text" name="firstname" required>
             <label for="lname">Last Name: </label>
@@ -71,20 +30,17 @@
                 <input type="radio" id="one" name="mlevel" value="level1">
                 <label for="one">Level 1</label>
                 </div>
-
                 <div class="radio">
-                <input type="radio" id="one" name="mlevel" value="level2">
-                <label for="one">Level 1</label>
+                <input type="radio" id="two" name="mlevel" value="level2">
+                <label for="two">Level 2</label>
                 </div>
-
                 <div class="radio">
-                <input type="radio" id="one" name="mlevel" value="level3">
-                <label for="one">Silver</label>
+                <input type="radio" id="three" name="mlevel" value="level3">
+                <label for="three">Level 3</label>
                 </div>
-
                 <div class="radio">
-                <input type="radio" id="one" name="mlevel" value="level3">
-                <label for="one">Gold</label>
+                <input type="radio" id="four" name="mlevel" value="level3">
+                <label for="four">Level 4</label>
                 </div>
             </div>
             
@@ -94,8 +50,39 @@
             <input id="date" type="hidden" name="todaydate">
 
             <input type="submit" value="join the Chamber">
-                
-        </form>
-    </main>
+    </form>
+
+    <div id="memberinfo">
+        <h2>Membership levels benefit</h2>
+        <h3>NP Membership</h3>
+        <ul>
+            <li>For non profit organizations and there is no fee</li>
+        </ul>
+
+        <h3>Bronze Membership</h3>
+        <ul>
+            <li>15% discount on events</li>
+            <li>10% discount on advertising</li>
+            <li>Fee of $50/month</li>
+        </ul>
+
+        <h3>Silver Membership</h3>
+        <ul>
+            <li>25% discount on events</li>
+            <li>15% discount on advertising</li>
+            <li>Free participation in the trade fair</li>
+            <li>Fee of $100/month</li>
+        </ul>
+
+        <h3>Gold Membership</h3>
+        <ul>
+            <li>50% discount on events</li>
+            <li>50% discount on advertising</li>
+            <li>Free participation in the trade fair</li>
+            <li>5 free featured ads per year</li>
+            <li>1 free training per quarter</li>
+            <li>Fee of $250/month</li>
+        </ul>
+    </div>
 </body>
 </html>
