@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+div{
+    display:flex
+}
+.card{
+    display: flex;
+}
+section{
+    text-align: center;
+    border: 2px solid ;
+    border-color: #7B82CC;
+    background-color: #C4C7E8;
+    margin: 5px;
+
+
+}
+h1{
+    color:#343A83;
+    font-family: 'Josefin Sans', sans-serif;
+}
+h2{
+    color: #3F47A2;
+    font-family: 'Josefin Sans', sans-serif;
+}
+h3{
+    font-family: Open Sans;
+    font-weight: 150;
+}
+img{
+    margin-bottom: 15px;
+    box-shadow: 5px 5px 5px 5px #161413;
+}
