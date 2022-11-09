@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
-div{
-    display:flex
-}
+/*
 .card{
     display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
 }
 section{
     text-align: center;
@@ -29,4 +30,39 @@ h3{
 img{
     margin-bottom: 15px;
     box-shadow: 5px 5px 5px 5px #161413;
+} */
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.cards section {
+    border: 1px solid #3F47A2;
+    background-color: #C4C7E8;
+    padding: 30px;
+    text-align: center;
+    width: 300px;
+    margin: 20px;
+    
+}
+
+h1{
+    color:#343A83;
+    font-family: 'Josefin Sans', sans-serif;
+}
+h2{
+    color: #3F47A2;
+    font-family: 'Josefin Sans', sans-serif;
+}
+h3{
+    font-family: Open Sans;
+    font-weight: 150;
+}
+img {
+    width: 90%;
+    box-shadow: 5px 10px 8px 5px #888888;
 }
