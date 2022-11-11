@@ -39,5 +39,12 @@ function displayProphets(item){
     card.appendChild(h4);
     //img
     card.appendChild(img);
-    document.querySelector('.cards').appendChild(card);    
-}
+    document.querySelector('.cards').appendChild(card);   
+    
+    // card.style.display = 'none'; 
+    // card.forEach((item) => {
+    //     item.remove();
+    }
+
+
+
