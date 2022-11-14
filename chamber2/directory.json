@@ -61,28 +61,28 @@
             "address" : "1200 Towne Centre Blvd # 2006, Provo, UT 84601",
             "phone" : "+18016071468",
             "website" : "https://ebornbooks.com/" ,
-            "image" : "businessimg/book.png"
+            "image" : "book.png"
         },
         {
             "name" : "Jaybird" ,
             "address" : "2700 Rasmussen Rd, Park City, UT 84098",
             "phone" : "+18662443399",
             "website" : "http://www.jaybirdsport.com/" ,
-            "image" : "businessimg/jaybird.png"
+            "image" : "jaybird.png"
         },
         {
             "name" : "SkyWest Airlines" ,
             "address" : "444 S River Rd, St. George, UT 84790",
             "phone" : "+14356343000",
             "website" : "http://www.skywest.com/" ,
-            "image" : "businessimg/sky.png"
+            "image" : "sky.png"
         },
         {
             "name" : "GumCo" ,
             "address" : "12 W Market St UNIT 220, Salt Lake City, UT 84101",
             "phone" : "+18015059997",
             "website" : "gumco.com" ,
-            "image" : "businessimg/gumco.png"
+            "image" : "gumco.png"
         }
     ]
 }
