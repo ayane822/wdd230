@@ -46,7 +46,7 @@
 // }
 
 
-const requestURL = 'https://.github.io/wint22/chamber/week9/data.json';
+const requestURL = 'https://ayane822.github.io/wdd230/chamber2/directory.json';
 
 function showCards(){
     let row = document.querySelectorAll('tr');
@@ -85,9 +85,9 @@ function showCards(){
         let website  = document.createElement('p');
         website.textContent = `Website: ${business.website}`;
         let img = document.createElement('img');
-        let image_path = `images/${business.image}`
-        img.setAttribute('src', image_path);
-        img.setAttribute('alt', `${business.name} logo`);
+        // let image_path = `images/${business.image}`
+        img.setAttribute('src', business.image);
+        // img.setAttribute('alt', `${business.name} logo`);
         
         card.appendChild(img); 
         card.appendChild(address);

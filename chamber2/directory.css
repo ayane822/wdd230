@@ -1,1 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+#content {
+    width: 100%;
+} 
+.views {
+    width: 70px;
+    padding: 30px;
+}
+#views_box {
+    text-align: center;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cards section {
+    border: 10px solid #83AFA8;
+    padding: 30px;
+    
+    width: 300px;
+    margin: 20px;
+}
 
+h2, h1 {
+    color: #83AFA8;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+img {
+    width: 90%;
+    
+}
+table {
+    width: 75%;
+    margin: 50px auto;
+    font-size: 1.2em;
+    border: 5px solid #E7D7C1;
+}
+tr {
+    line-height: 2.5em;
+}
+td {
+    padding: 5px;
+}
+tr:nth-of-type(even){
+    background-color: #ccc;
+}
+table a {
+    color: #83AFA8;
+}
+@media screen and (max-width:900px) {
+
+    .table tr{
+        display: block;
+        border: none;
+        line-height: 2.5rem;
+        text-align: center;
+      }
+ } 

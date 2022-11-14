@@ -5,56 +5,56 @@
             "address" : "3291 S 3450 W, West Valley City, UT 84119",
             "phone" : "8019643044",
             "website" : "familysearch.org" ,
-            "image" : "businessimg/family.jpeg"
+            "image" : "family.jpeg"
         },
         {
             "name" : "Zions Bank Head Office" ,
             "address" : "1 S Main St, Salt Lake City, UT 84133",
             "phone" : "+018447000",
             "website" : "zionsbank.com" ,
-            "image" : "businessimg/zions.jpeg"
+            "image" : "zions.jpeg"
         },
         {
             "name" : "BYU Marriott School of Business" ,
             "address" : "Campus Dr, Provo, UT 84602",
             "phone" : "+18014224121",
             "website" : "marriott.byu.edu" ,
-            "image" : "businessimg/mba.png"
+            "image" : "mba.png"
         },
         {
             "name" : "Bank of Utah" ,
             "address" : "2605 Washington Blvd, Ogden, UT 84401",
             "phone" : "+18014095001",
             "website" : "bankofutah.com" ,
-            "image" : "businessimg/bankofutah.png"
+            "image" : "bankofutah.png"
         },
         {
             "name" : "Cafe Rio Headquarters" ,
             "address" : "1245 Brickyard Rd suite 600, Salt Lake City, UT 84106",
             "phone" : "+18014095001",
             "website" : "https://www.caferio.com/contact" ,
-            "image" : "businessimg/caferio.png"
+            "image" : "caferio.png"
         }, 
         {
             "name" : "dōTERRA " ,
             "address" : "389 1300 W, Pleasant Grove, UT 84062",
             "phone" : "+18004118151",
             "website" : "https://www.doterra.com/" ,
-            "image" : "businessimg/doterra.png"
+            "image" : "doterra.png"
         },
         {
             "name" : "Alsco Uniforms " ,
             "address" : "3370 W 1820 S, Salt Lake City, UT 84104",
             "phone" : "+18019737771",
             "website" : "https://alsco.com/north-america/salt-lake-city/" ,
-            "image" : "businessimg/alsco.png"
+            "image" : "alsco.png"
         },
         {
             "name" : "Bonneville International Corporation" ,
             "address" : "55 N 300 W #700, Salt Lake City, UT 84101",
             "phone" : "+18015757500",
             "website" : "http://bonneville.com/" ,
-            "image" : "businessimg/bon.png"
+            "image" : "bon.png"
         },
         {
             "name" : "Eborn Books" ,
