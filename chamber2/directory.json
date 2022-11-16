@@ -5,84 +5,84 @@
             "address" : "3291 S 3450 W, West Valley City, UT 84119",
             "phone" : "8019643044",
             "website" : "familysearch.org" ,
-            "image" : "family.jpeg"
+            "image" : "businessimg/family.jpeg"
         },
         {
             "name" : "Zions Bank Head Office" ,
             "address" : "1 S Main St, Salt Lake City, UT 84133",
             "phone" : "+018447000",
             "website" : "zionsbank.com" ,
-            "image" : "zions.jpeg"
+            "image" : "businessimg/zions.jpeg"
         },
         {
             "name" : "BYU Marriott School of Business" ,
             "address" : "Campus Dr, Provo, UT 84602",
             "phone" : "+18014224121",
             "website" : "marriott.byu.edu" ,
-            "image" : "mba.png"
+            "image" : "businessimg/mba.png"
         },
         {
             "name" : "Bank of Utah" ,
             "address" : "2605 Washington Blvd, Ogden, UT 84401",
             "phone" : "+18014095001",
             "website" : "bankofutah.com" ,
-            "image" : "bankofutah.png"
+            "image" : "businessimg/bankofutah.png"
         },
         {
             "name" : "Cafe Rio Headquarters" ,
             "address" : "1245 Brickyard Rd suite 600, Salt Lake City, UT 84106",
             "phone" : "+18014095001",
             "website" : "https://www.caferio.com/contact" ,
-            "image" : "caferio.png"
+            "image" : "businessimg/caferio.png"
         }, 
         {
             "name" : "dōTERRA " ,
             "address" : "389 1300 W, Pleasant Grove, UT 84062",
             "phone" : "+18004118151",
             "website" : "https://www.doterra.com/" ,
-            "image" : "doterra.png"
+            "image" : "businessimg/doterra.png"
         },
         {
             "name" : "Alsco Uniforms " ,
             "address" : "3370 W 1820 S, Salt Lake City, UT 84104",
             "phone" : "+18019737771",
             "website" : "https://alsco.com/north-america/salt-lake-city/" ,
-            "image" : "alsco.png"
+            "image" : "businessimg/alsco.png"
         },
         {
             "name" : "Bonneville International Corporation" ,
             "address" : "55 N 300 W #700, Salt Lake City, UT 84101",
             "phone" : "+18015757500",
             "website" : "http://bonneville.com/" ,
-            "image" : "bon.png"
+            "image" : "businessimg/bon.png"
         },
         {
             "name" : "Eborn Books" ,
             "address" : "1200 Towne Centre Blvd # 2006, Provo, UT 84601",
             "phone" : "+18016071468",
             "website" : "https://ebornbooks.com/" ,
-            "image" : "book.png"
+            "image" : "businessimg/book.png"
         },
         {
             "name" : "Jaybird" ,
             "address" : "2700 Rasmussen Rd, Park City, UT 84098",
             "phone" : "+18662443399",
             "website" : "http://www.jaybirdsport.com/" ,
-            "image" : "jaybird.png"
+            "image" : "businessimg/jaybird.png"
         },
         {
             "name" : "SkyWest Airlines" ,
             "address" : "444 S River Rd, St. George, UT 84790",
             "phone" : "+14356343000",
             "website" : "http://www.skywest.com/" ,
-            "image" : "sky.png"
+            "image" : "businessimg/sky.png"
         },
         {
             "name" : "GumCo" ,
             "address" : "12 W Market St UNIT 220, Salt Lake City, UT 84101",
             "phone" : "+18015059997",
             "website" : "gumco.com" ,
-            "image" : "gumco.png"
+            "image" : "businessimg/gumco.png"
         }
     ]
 }
