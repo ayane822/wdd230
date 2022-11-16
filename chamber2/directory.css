@@ -22,10 +22,13 @@
     margin: 20px;
 }
 
-h2, h1 {
+h2, h1  {
     color: #83AFA8;
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
+}
+h3 {
+    text-align: center;
 }
 
 img {
@@ -36,7 +39,6 @@ table {
     width: 75%;
     margin: 50px auto;
     font-size: 1.2em;
-    border: 5px solid #E7D7C1;
 }
 tr {
     line-height: 2.5em;
