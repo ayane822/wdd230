@@ -1,4 +1,6 @@
 #icon-src{display: none;}
+
+
 @media screen and (min-width: 1150px){
         /*header and footer*/
     header,footer{
@@ -170,9 +172,18 @@
     3px 7px 6px #000000;
 }
 #weather img{
-    width: 100px;
-    margin-top: -10px;
-    margin-bottom: -10px;
+    width: 75px;
+    margin: -10px;
+}
+.temp {
+    display: flex;
+    justify-content: space-around;
+}
+.temp p{
+    font-size: 2em;
+}
+#weather span {
+    padding-left: 10px;
 }
 .join{
     grid-column: 1/2;

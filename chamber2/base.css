@@ -212,9 +212,20 @@
             3px 7px 6px #000000;
         }
         #weather img{
-            width:110px;
+            width:100px;
+            margin: -20px;
     
         }
+        .temp {
+            display: flex;
+            justify-content: space-around;
+          }
+          .temp p{
+            font-size: 2em;
+          }
+          #weather span {
+            padding-left: 10px;
+          }
         .join{
             display:none;
             background-color: #8fc6e4;

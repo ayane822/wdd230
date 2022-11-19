@@ -243,10 +243,21 @@ font-size: 35px;
   margin-top: 0px;
 }
 #weather img {
-  width:110px;
-  margin-top: -10px;  
-  margin-bottom: -10px;
+  width:75px;
+  margin: -15px;
 }
+.temp {
+  display: flex;
+  justify-content: space-around;
+}
+.temp p{
+  font-size: 2em;
+}
+#weather span {
+  padding-left: 10px;
+}
+
+
 .join{
   grid-column: 1/3;
   grid-row: 4/5;

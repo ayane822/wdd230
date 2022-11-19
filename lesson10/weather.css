@@ -1,0 +1,17 @@
+#weather {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+#weather img {
+    width: 75px;
+}
+.temp {
+    display: flex;
+    justify-content: space-around;
+}
+.temp p{
+    font-size: 2em;
+}
+#weather span {
+    padding-left: 10px;
+}
