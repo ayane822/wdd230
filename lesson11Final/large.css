@@ -13,15 +13,15 @@
         grid-column: 2/3;
         width:90%;
     }
-    .navigation{
+    .ham{
         grid-column: 3/7;
         width:100%;
     }
-    .navigation ul{
+    .ham ul{
         list-style: none;
         display :flex;
     }
-    .navigation ul li{
+    .ham ul li{
         padding-left: 20px;
         font-size: 25px;
     }
