@@ -486,12 +486,14 @@ div picture img:hover{
 }
 
 @media screen and (max-width:800px){
-    div picture img{
+    #parent .img img{
+        padding-right: 10px;
         display: block;
-        width: 500px;
+        width: 200px;
         object-fit: cover;
     }
-}
-Footer{
-    background-color: #E7D7C1;
+    Footer{
+        background-color: #E7D7C1;
+        text-align: center;
+    }
 }

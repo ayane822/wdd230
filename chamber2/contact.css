@@ -110,6 +110,9 @@ img{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     border-top: 1px solid;
 }
+main{
+    padding-left: 25rem;
+}
 }
 @media screen and (min-width:800px) and (max-width: 1150px){
     /*header and footer*/
@@ -263,6 +266,9 @@ font-size: 35px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     border-top: 1px solid;
+}
+main{
+    padding-left: 17rem;
 }}
 @media screen and (max-width:800px) {
     header,footer{
@@ -396,4 +402,7 @@ font-size: 35px;
         color: #83AFA8;
         text-decoration: none;
         font-size: 35px;
-      }}
+      }
+      main{
+        padding-left: 8rem;
+    }}
