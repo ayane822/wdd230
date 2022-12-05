@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital@1&family=Recursive&family=Rowdies:wght@300&display=swap');
-@media screen and (min-width: 1150px){
+@media screen and (min-width: 1400px){
     /* Header! */
     #header{
         display:grid;
@@ -105,21 +105,16 @@ body{
     padding: 15px;
 }
 .new_release h2{
-    font-family:'Roboto Mono', monospace;
-    font-size: 30px;
-    font-weight: 400;
+    font-family: 'Lora', serif;
+    font-size: 45px;
     color: #e37d39;
-    text-shadow:
-    0 1px #bbb,
-    1px 2px #bbb,
-    2px 3px #bbb,
-    3px 7px 6px #000000;
     text-align: center;
 }
 .new_release p{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lora', serif;
     text-align: center;
     color: #e37d39;
+    font-size: 20px;
 }
 #weather{
     grid-column: 1/2;
@@ -130,21 +125,16 @@ body{
     text-align: center;
 }
 #weather p{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lora', serif;
     color: #e37d39;
 }
 #weather h2{
-    font-family:'Roboto Mono', monospace;
+    font-family: 'Lora', serif;
     font-size: 30px;
     color: #e37d39;
-    text-shadow:
-    0 1px #bbb,
-    1px 2px #bbb,
-    2px 3px #bbb,
-    3px 7px 6px #000000;
 }
 #weather img{
-    width: 75px;
+    width: 70px;
     margin: -10px;
 }
 .temp {
@@ -161,30 +151,32 @@ body{
     grid-column: 1/2;
     grid-row: 3/4;
     background-color: white;
-    margin:8px;
-    
 }
 .join h2{
-    text-align: center
-}
-.join h2 a{
-    color:#FFF;
+    text-align: center;
+    color:#02033B;
     font-size:40px;
-    text-decoration: none;
-    background-color: #DAA9AC;
-    border-radius: 20px;
-    font-family: 'Roboto Mono', monospace;
-    text-shadow:
-    0 1px #bbb,
-    1px 2px #bbb,
-    2px 3px #bbb,
-    3px 7px 6px #af797d;
+    font-family: 'Lora', serif;
 }
 .join p{
     font-family: 'Lora', serif;
     text-align: center;
-    color: #e37d39;
-    padding:20px;
+    color: #02033B;
+    font-size: 18px;
+    padding: 30px;
+}
+.join p a{
+    background-color: #02033B;
+    position: absolute;
+    text-decoration: none;
+    top: 125%;
+    left:9%;
+    font-size:30px;
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+
 }
 .event{
     grid-column: 1/2;
@@ -211,49 +203,35 @@ body{
     grid-column:4/5;
     grid-row: 1/2;
     background-color: white;
-    margin:8px;
     text-align: center;
 }
 .s1 h2{
     color: #e37d39;
-    font-size : 20px;
-    text-shadow:
-    0 1px #bbb,
-    1px 2px #bbb,
-    2px 3px #bbb,
-    3px 7px 6px #000000;
+    font-size : 35px;
 }
 .s1 img{
-    width:150px;
-    margin-top: -10px;
+    width:200px;
 }
 .s1 p{
     color: #e37d39;
     font-family: 'Lora', serif;
+    font-size: 20px;
 }
 .s2{
     grid-column:4/5;
     grid-row: 2/3;
     background-color: white;
-    margin:8px;
     text-align: center;
     padding-bottom: 10px;
 }
 .s2 h2{
     color: #e37d39;
-    font-size : 20px;
-    text-shadow:
-    0 1px #bbb,
-    1px 2px #bbb,
-    2px 3px #bbb,
-    3px 7px 6px #000000;
+    font-size : 23px;
 }
 .s2 img{
-    width:125px;
-    margin-top:-10px;
+    width: 185px;
 }
 .s2 p{
-    margin-bottom: -20px;
     color: #e37d39;
     font-family: 'Lora', serif;
 }
@@ -262,28 +240,20 @@ body{
     grid-column:4/5;
     grid-row:3/4;
     background-color: white;
-    margin:8px;
     text-align: center;
 
 }
 .s3 h2{
     color: #e37d39;
-    font-size : 20px;
-    text-shadow:
-    0 1px #bbb,
-    1px 2px #bbb,
-    2px 3px #bbb,
-    3px 7px 6px #000000;
-    margin-top: -2px;
+    font-size : 35px;
 }
 .s3 img{
-    width:150px;
-    margin-top:-10px;
+    width:225px;
 }
 .s3 p{
-    font-size: 15px;
+    font-size: 18px;
     color: #e37d39;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lora', serif;
 }
     
 }
