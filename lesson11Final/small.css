@@ -11,12 +11,16 @@
 }
 .social img {
     grid-template-columns: 4/5;
-    width: 70px;
-    margin-left: 3px;
+    width: 55px;
+}
+.social{
+   margin-right: -20px;
+   text-align: right;
 }
 h1{
     grid-template-columns: 3/4;
     margin-left: 45px;
+    font-family: 'Lora', serif;
 }
 *,
 *::after,
@@ -156,14 +160,15 @@ body {
     object-fit: cover;
     /* background-image: url("images/kure.webp"); */
 }
-.d1 p{
+.d1 h2{
     position: absolute;
     top:0;
     left:0;
-    font-size:30px;
-    color: white;
+    font-size:25px;
+    color: #02033B;
     margin:15px;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Lora', serif;
+    margin-top: -5px ;
     text-shadow:
     0 1px #bbb,
     1px 2px #bbb,
@@ -178,9 +183,10 @@ body {
     top: 65%;
     left:45%;
     font-size:30px;
-    color: #5F4944;
+    color: #02033B;
+    padding:10px;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 5px;
     font-family: 'Open Sans', sans-serif;
 }
 .new_release{

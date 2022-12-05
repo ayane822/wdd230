@@ -12,6 +12,7 @@
     #header h1{
         grid-column: 3/7;
         width:90%;
+        font-family: 'Lora', serif;
     }
     .check{
         grid-column: 1/2;
@@ -29,10 +30,11 @@
     } 
     .social {
         grid-column: 7/8;
-        padding-left: -10px;
+        margin-left: -50px;
     }
     .social img {
         width: 70px;
+        padding: 4px;
     }
     /*Header ends*/
     *,
@@ -176,26 +178,26 @@ body {
     grid-row:1/2;
   }
   .d1 img{
-    height:300px;
+    height:350px;
     width:100%;
     object-fit: cover;
+    padding-bottom: 1rem;
     /* background-image: url("images/kuresi.webp"); */
     
   }
-  .d1 p{
+  .d1 h2{
     position: absolute;
     top:0;
     left:0;
-    font-size:45px;
-    color: white;
-    margin:50px;
-    font-family: 'Roboto Mono', monospace;
+    font-size:40px;
+    color: #02033B;
+    font-family: 'Lora', serif;
+    margin:8rem;
     text-shadow:
-    0 1px #bbb,
-    1px 2px #bbb,
-    2px 3px #bbb,
-    3px 4px #bbb,
-    4px 5px #bbb,
+    0 1px white,
+    1px 2px white,
+    2px 3px whitesmoke,
+    3px 4px white,
     5px 10px 8px #000000;
   }
   .d1 a{
@@ -204,9 +206,10 @@ body {
     top: 65%;
     left:45%;
     font-size:30px;
-    color: #5F4944;
+    color: #02033B;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 5px;
+    padding: 15px;
     font-family: 'Open Sans', sans-serif;
   }
   .new_release{
