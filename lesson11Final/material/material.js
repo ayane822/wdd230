@@ -1,4 +1,4 @@
-const requestURL = 'https://ayane822.github.io/wdd230/chamber2/directory.json';
+const requestURL = 'https://ayane822.github.io/wdd230/lesson11Final/material/material.json';
 
 function showCards(){
     let row = document.querySelectorAll('tr');
@@ -21,25 +21,25 @@ function showCards(){
     })
     .then(function (jsonObject) {
         console.table(jsonObject);  
-        const business = jsonObject['businesses'];
-        business.forEach(displayBusinessCards);
+        const material = jsonObject['materials'];
+        material.forEach(displayMaterialCards);
     });
 
-    function displayBusinessCards(business) {  
+    function displayMaterialCards(material) {  
         let cards = document.querySelector('.cards');
         cards.setAttribute('style', 'grid-template-columns: 2fr 1fr 1fr 1fr;');
 
         let card = document.createElement('section') 
         let address = document.createElement('p');
-        address.textContent = `Address: ${business.address}`
+        address.textContent = `Address: ${material.address}`
         let phone  = document.createElement('p');
-        phone.textContent = `Phone: ${business.phone}`;
+        phone.textContent = `Phone: ${material.phone}`;
         let website  = document.createElement('p');
-        website.textContent = `Website: ${business.website}`;
+        website.textContent = `Website: ${material.website}`;
         let img = document.createElement('img');
-        // let image_path = `images/${business.image}`
-        img.setAttribute('src', business.image);
-        // img.setAttribute('alt', `${business.name} logo`);
+        // let image_path = `images/${material.image}`
+        img.setAttribute('src', material.image);
+        // img.setAttribute('alt', `${material.name} logo`);
         
         card.appendChild(img); 
         card.appendChild(address);
@@ -74,26 +74,26 @@ function showList(){
     })
     .then(function (jsonObject) {
         console.table(jsonObject);  
-        const business = jsonObject['businesses'];
-        business.forEach(displayBusinessList);
+        const material = jsonObject['materials'];
+        material.forEach(displayMaterialList);
     });
 
-    function displayBusinessList(business) { 
+    function displayMaterialList(material) { 
 
         let list_row = document.createElement('tr');
         let td_name = document.createElement('td');
-        td_name.textContent = `${business.name}`;
+        td_name.textContent = `${material.name}`;
 
         let td_address = document.createElement('td');
-        td_address.textContent = `${business.address}`;
+        td_address.textContent = `${material.address}`;
 
         let td_number = document.createElement('td');
-        td_number.textContent = `${business.phone}`;
+        td_number.textContent = `${material.phone}`;
 
         let td_web = document.createElement('td');
         let web_p = document.createElement('a')
-        web_p.setAttribute('href', business.website);
-        web_p.textContent = `${business.website}`;
+        web_p.setAttribute('href', material.website);
+        web_p.textContent = `${material.website}`;
 
         td_web.appendChild(web_p)
         list_row.appendChild(td_name)
