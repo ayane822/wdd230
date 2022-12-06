@@ -50,13 +50,13 @@
                     and at least 7 characters): </label>
                 <input required id="title" type="text" name="title" pattern="[- A-za-z]+" minlength="7"> -->
                 <label for="email">Email:</label>
-                <input id="email" type="email" name="email">
+                <input id="email" type="email" name="email" required>
                     
                 <label for="phone">Cell Number :</label>
-                <input id="phone" type="tel" name="cell" required>
+                <input id="phone" type="tel" name="cell" >
 
                 <label for="email">Password:</label>
-                <input id="password" type="password" name="password">
+                <input id="password" type="password" name="password" required>
     
                 <label>Choose what you want</label>
                 <div id="radio">
@@ -75,7 +75,7 @@
                 
                 <input id="date" type="hidden" name="todaydate">
     
-                <input type="submit" value="join the Chamber">
+                <input type="submit" id="sub" value="Submit">
         </form>
     
 </main>

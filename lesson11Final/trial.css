@@ -374,11 +374,14 @@ body {
         transform: rotate(-45deg);
     }
 }    
-
+body{
+    background-color: antiquewhite;
+    justify-items: center;
+}
 #content{
-    display:flex;
     width: 90%;
     margin: 0 auto;
+    
 }
 form{
     margin: 40px;
@@ -387,7 +390,7 @@ form{
 #content label, input{
     display:block;
     font-family: Open Sans;
-    color: #5F4944;
+    color: black;
 }
 #content label{
     font-size: 25px;
@@ -397,7 +400,7 @@ form input:required:valid{
     border-left: green solid 6px;
 }
 form input:required{
-    border-left: red solid 6px;
+    border-left: #e37d39 solid 6px;
 }
 input, textarea {
     margin-bottom: 20px;
@@ -419,22 +422,16 @@ input[type="radio" i] {
 }
 #radio{
     display: grid;
-    grid-template-columns: 60px 100px;
+    grid-template-columns: 50px 500px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 span{
     font-size: 20px;
 }
- h1 {
-    display: block;
-    font-size: 2em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-}
+
 div{
     display: block;
-    font-family: Open Sans;
-    color: #5F4944;
+    font-family: 'Lora', serif;
+    color: black;
 }
