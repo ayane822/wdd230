@@ -9,13 +9,78 @@
 </head>
 <body>
 <header>
-
+    <div id="header">
+        <img id="logo" src="img/nativecamp.png" alt="company logo">
+        <h1>Native Camp</h1>
+        <input type="checkbox" class="check">
+            <ul class="menu-items">
+                <!-- <li><a class="ham" href="#"><span>$#9776;</span><span>X</span></a></li> -->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="price.html">Price </a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="countries.html">Countries</a></li>
+                <li><a href="trial.html">Trial</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        <div class="ham-menu">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+        </div>
+     
+        <div class="social">
+            <a href="https://www.facebook.com/nativecamp.teacher/">
+                <img src="img/facebook.png" alt="facebook">
+            </a>
+            <a hef="https://www.instagram.com/nativecamp.official/">
+                <img src="img/insta.jpeg" alt="instagram">
+            </a>
+        </div>
+        </div>
 </header>
 <main>
+    <div id="content">
+        <form method="get" action="thankyou.html">
+                <label for="fname">First Name: </label>
+                <input id="fname" type="text" name="firstname" required>
+                <label for="lname">Last Name: </label>
+                <input id="lname" type="text" name="lastname" required>
+                
+                <!-- <label for="title">Business Position Title: (only letters, spaces and dashes
+                    and at least 7 characters): </label>
+                <input required id="title" type="text" name="title" pattern="[- A-za-z]+" minlength="7"> -->
+                <label for="email">Email:</label>
+                <input id="email" type="email" name="email">
+                    
+                <label for="phone">Cell Number :</label>
+                <input id="phone" type="tel" name="cell" required>
 
+                <label for="email">Password:</label>
+                <input id="password" type="password" name="password">
+    
+                <label>Choose what you want</label>
+                <div id="radio">
+                    <input type="radio" id="one" name="mlevel" value="level1">
+                    <label for="one">Free Trial</label>
+                    <input type="radio" id="two" name="mlevel" value="level2">
+                    <label for="two">Be a Member (Sign In)</label>
+                    <input type="radio" id="three" name="mlevel" value="level3">
+                    <label for="three">Intership</label>
+                    <input type="radio" id="four" name="mlevel" value="level3">
+                    <label for="four">Log in</label>
+                </div>
+                
+                <!-- <label for="message">Business Description: </label>
+                <textarea id="message" placeholder="your biz description here"></textarea> -->
+                
+                <input id="date" type="hidden" name="todaydate">
+    
+                <input type="submit" value="join the Chamber">
+        </form>
+    
 </main>
 <footer>
-    
+
 </footer>
 </body>
 </html>
