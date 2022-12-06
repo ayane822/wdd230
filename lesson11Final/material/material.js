@@ -30,21 +30,21 @@ function showCards(){
         cards.setAttribute('style', 'grid-template-columns: 2fr 1fr 1fr 1fr;');
 
         let card = document.createElement('section') 
-        let address = document.createElement('p');
-        address.textContent = `Address: ${material.address}`
-        let phone  = document.createElement('p');
-        phone.textContent = `Phone: ${material.phone}`;
-        let website  = document.createElement('p');
-        website.textContent = `Website: ${material.website}`;
+        let name = document.createElement('p');
+        name.textContent = `Material: ${material.name}`
+        let level  = document.createElement('p');
+        level.textContent = `Level: ${material.level}`;
+        let about  = document.createElement('p');
+        about.textContent = `${material.about}`;
         let img = document.createElement('img');
         // let image_path = `images/${material.image}`
         img.setAttribute('src', material.image);
         // img.setAttribute('alt', `${material.name} logo`);
         
         card.appendChild(img); 
-        card.appendChild(address);
-        card.appendChild(phone);
-        card.appendChild(website);
+        card.appendChild(name);
+        card.appendChild(level);
+        card.appendChild(about);
         
         document.querySelector('div.cards').appendChild(card);
         
@@ -81,25 +81,25 @@ function showList(){
     function displayMaterialList(material) { 
 
         let list_row = document.createElement('tr');
+        let td_rank = document.createElement('td');
+        td_rank.textContent = `${material.rank}`;
+
         let td_name = document.createElement('td');
         td_name.textContent = `${material.name}`;
 
-        let td_address = document.createElement('td');
-        td_address.textContent = `${material.address}`;
+        let td_level = document.createElement('td');
+        td_level.textContent = `${material.level}`;
 
-        let td_number = document.createElement('td');
-        td_number.textContent = `${material.phone}`;
+        let td_abo = document.createElement('td');
+        let abo_p = document.createElement('a')
+        // abo_p.setAttribute('href', material.about);
+        abo_p.textContent = `${material.about}`;
 
-        let td_web = document.createElement('td');
-        let web_p = document.createElement('a')
-        web_p.setAttribute('href', material.website);
-        web_p.textContent = `${material.website}`;
-
-        td_web.appendChild(web_p)
+        td_abo.appendChild(abo_p)
+        list_row.appendChild(td_rank)
         list_row.appendChild(td_name)
-        list_row.appendChild(td_address)
-        list_row.appendChild(td_number)
-        list_row.appendChild(td_web)
+        list_row.appendChild(td_level)
+        list_row.appendChild(td_abo)
         document.querySelector('table').appendChild(list_row);
 
      }
