@@ -273,7 +273,9 @@ body {
     width: 125px;
     grid-column: 2/3;
 }
-
+#reason{
+    display: none;
+}
 .s{
     background-color: #83AFA8;
     padding-top: 10px;

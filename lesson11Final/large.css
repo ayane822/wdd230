@@ -47,8 +47,8 @@
      /*body*/
 .wrapper{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 350px 350px 400px;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 350px 350px 100px 450px 385px;
     gap:8px;
     background-color: antiquewhite;
     color: #e37d39;
@@ -98,9 +98,11 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 .new_release{
-    grid-column: 2/4;
-    grid-row: 3/4;
+    grid-column: 1/4;
+    grid-row: 5/6;
     margin: 8px;
+    margin-left: 12rem;
+    margin-right: 12rem;
     background-color: white;
     padding: 15px;
 }
@@ -148,39 +150,13 @@ body{
     padding-left: 10px;
 }
 .join{
-    grid-column: 1/2;
-    grid-row: 3/4;
-    background-color: white;
-}
-.join h2{
-    text-align: center;
-    color:#02033B;
-    font-size:40px;
-    font-family: 'Lora', serif;
-}
-.join p{
-    font-family: 'Lora', serif;
-    text-align: center;
-    color: #02033B;
-    font-size: 18px;
-    padding: 30px;
-}
-.try a{
-    background-color: #02033B;
-    position: absolute;
-    text-decoration: none;
-    font-size:30px;
-    padding: 15px;
-    color: white;
-    border-radius: 5px;
-    
-
+    display: none;
 }
 .event{
     grid-column: 1/2;
     grid-row: 1/2;
     background-color: white;
-    margin:8px;
+    margin: 1.5rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -193,15 +169,27 @@ body{
 }
 
 .event img{
-    width: 200px;
+    width: 185px;
+    padding-left: 6rem;
     grid-column: 2/3;
 }
-
+#reason{
+    grid-column: 1/4;
+    grid-row: 3/4;
+}
+#reason h2{
+    color: #02033B;
+    text-align: center;
+    font-size: 50px;
+    padding: 0.8rem;
+    border: solid 3px ;
+}
 .s1{
-    grid-column:4/5;
-    grid-row: 1/2;
+    grid-column:1/2;
+    grid-row: 4/5;
     background-color: white;
     text-align: center;
+    margin: 2rem;
 }
 .s1 h2{
     color: #e37d39;
@@ -214,17 +202,19 @@ body{
     color: #e37d39;
     font-family: 'Lora', serif;
     font-size: 20px;
+    margin: 1.5rem;
 }
 .s2{
-    grid-column:4/5;
-    grid-row: 2/3;
+    grid-column:2/3;
+    grid-row: 4/5;
     background-color: white;
     text-align: center;
     padding-bottom: 10px;
+    margin: 2rem;
 }
 .s2 h2{
     color: #e37d39;
-    font-size : 23px;
+    font-size : 35px;
 }
 .s2 img{
     width: 200px;
@@ -232,13 +222,16 @@ body{
 .s2 p{
     color: #e37d39;
     font-family: 'Lora', serif;
+    font-size: 15px;
+    margin: 1.5rem;
 }
 
 .s3{
-    grid-column:4/5;
-    grid-row:3/4;
+    grid-column:3/4;
+    grid-row: 4/5;
     background-color: white;
     text-align: center;
+    margin: 2rem;
 
 }
 .s3 h2{
@@ -252,6 +245,7 @@ body{
     font-size: 18px;
     color: #e37d39;
     font-family: 'Lora', serif;
+    margin: 1.5rem;
 }
     
 }
