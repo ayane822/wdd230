@@ -8,6 +8,7 @@
     width:100px;
     grid-template-columns: 2/3;
     margin-left: 100px;
+
 }
 .social img {
     grid-template-columns: 4/5;
