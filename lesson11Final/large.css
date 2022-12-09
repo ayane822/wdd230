@@ -209,12 +209,11 @@ body{
     grid-row: 4/5;
     background-color: white;
     text-align: center;
-    padding-bottom: 10px;
     margin: 2rem;
 }
 .s2 h2{
     color: #e37d39;
-    font-size : 35px;
+    font-size : 30px;
 }
 .s2 img{
     width: 200px;
@@ -222,8 +221,8 @@ body{
 .s2 p{
     color: #e37d39;
     font-family: 'Lora', serif;
-    font-size: 15px;
-    margin: 1.5rem;
+    font-size: 17px;
+    margin: 1rem;
 }
 
 .s3{
@@ -236,10 +235,11 @@ body{
 }
 .s3 h2{
     color: #e37d39;
-    font-size : 35px;
+    font-size : 33px;
 }
 .s3 img{
     width:225px;
+    padding-bottom: -15px;
 }
 .s3 p{
     font-size: 18px;
