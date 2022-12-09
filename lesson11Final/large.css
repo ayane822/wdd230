@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital@1&family=Recursive&family=Rowdies:wght@300&display=swap');
-@media screen and (min-width: 1400px){
+@media screen and (min-width: 1150px){
     /* Header! */
     #header{
         display:grid;

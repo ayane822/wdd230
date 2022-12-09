@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital@1&family=Recursive&family=Rowdies:wght@300&display=swap');
 body{
-    background-color: antiquewhite;
     justify-items: center;
 }
 /*LARGE*/
-@media screen and (min-width: 1400px){
+@media screen and (min-width: 1150px){
     /* Header! */
     #header{
         display:grid;
@@ -50,6 +49,9 @@ body{
 
 
      /*body*/
+    body{
+        background-color: antiquewhite;
+    }
 .wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -60,7 +62,7 @@ body{
 }
 }
 /*Medium*/
-@media screen and (min-width:850px) and (max-width:1400px){
+@media screen and (min-width:800px) and (max-width:1150px){
     /*Header!*/
     #header{
         display:grid;
@@ -227,7 +229,7 @@ body {
 }
 }
 /*SMALL*/
-@media screen and (max-width:850px) {
+@media screen and (max-width:800px) {
     #header{
             display:grid;
             grid-template-columns: repeat(4,1fr);
@@ -378,3 +380,89 @@ body {
         transform: rotate(-45deg);
     }
 }    
+
+/*This is Main*/
+main{
+    text-align: center;
+    color: #02033B;
+}
+.price{
+    margin: 3rem;
+    border: solid 2px rgb(112, 75, 75);
+}
+.price h1{
+    background-color: #e4f6ec;
+    padding: 1.5rem;
+    border-bottom: solid 1.5px rgb(112, 75, 75) ;
+}
+.price h3{
+    margin: 1.5rem;
+}
+table {
+    margin: 2rem auto;
+    font-family: 'Open Sans';
+    box-shadow: 10px 5px 10px #7d9fb5;
+    border-collapse: collapse;
+}
+
+th,tbody,tfoot{
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #b8c2c3;
+  }
+
+tbody {
+    border-style: solid;
+    border-color: #b8c2c3;
+  }
+
+ td {
+    padding: 15px;
+    font-size: larger;
+    border-color: #b8c2c3;
+ }
+ 
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+ 
+  tbody tr:nth-child(odd) {
+    background-color: #e4f6ec;
+  }
+  th{
+    font-weight: bolder;
+    font-size: larger;
+    padding: 15px;
+  }
+
+.other{
+    margin: 2rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    padding: 2.5rem;
+    background-color: #9f6640;
+    border-radius: 10px;
+}
+.other h1, .other p{
+    color: white;
+}
+.other h1 {
+    margin-bottom: 2rem;
+}
+.other p {
+    margin: 2rem;
+    font-size: 23px;
+}
+.other h2{
+    border-radius: 8px;
+    background-color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+
+
+
+ 
