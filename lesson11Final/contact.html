@@ -4,9 +4,116 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+    <script defer src="contact.js"></script>
+    <title>contact</title>
 </head>
 <body>
-    
+<header>
+    <div id="header">
+    <img id="logo" src="img/nativecamp.png" alt="company logo">
+    <h1>Native Camp</h1>
+    <input type="checkbox" class="check">
+        <ul class="menu-items">
+            <!-- <li><a class="ham" href="#"><span>$#9776;</span><span>X</span></a></li> -->
+            <li><a href="index.html">Home</a></li>
+            <li><a href="price.html">Price </a></li>
+            <li><a href="material/material.html">Material</a></li>
+            <li><a href="country/countries.html">Countries</a></li>
+            <li><a href="trial.html">Trial</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    <div class="ham-menu">
+        <span class="line line1"></span>
+        <span class="line line2"></span>
+        <span class="line line3"></span>
+    </div>
+ 
+    <div class="social">
+        <a href="https://www.facebook.com/nativecamp.teacher/">
+            <img src="img/facebook.png" alt="facebook">
+        </a>
+        <a hef="https://www.instagram.com/nativecamp.official/">
+            <img src="img/insta.jpeg" alt="instagram" >
+        </a>
+    </div>
+    </div>
+</header>
+
+<main>
+    <section id="contact">
+  
+        <h1 class="section-header">Contact</h1>
+        
+        <div class="contact-wrapper">
+        
+        <!-- Left contact page --> 
+          
+          <form id="contact-form" class="form-horizontal" role="form">
+             
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+              </div>
+            </div>
+      
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+              </div>
+            </div>
+      
+            <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+            
+            <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+              <div class="alt-send-button">
+                <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+              </div>
+            
+            </button>
+            
+          </form>
+          
+        <!-- Left contact page --> 
+          
+            <div class="direct-contact-container">
+      
+              <ul class="contact-list">
+                <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Tokyo, Japan </span></i></li>
+                
+                <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">+81 3-5877-4801</a></span></i></li>
+                
+                <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">nativecamp.net</a></span></i></li>
+                
+              </ul>
+      
+              <hr>
+              <ul class="social-media-list">
+                <li><a href="#" target="_blank" class="contact-icon">
+                  <i class="fa fa-github" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="#" target="_blank" class="contact-icon">
+                  <i class="fa fa-codepen" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="#" target="_blank" class="contact-icon">
+                  <i class="fa fa-twitter" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="#" target="_blank" class="contact-icon">
+                  <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </li>       
+              </ul>
+              <hr>
+      
+              <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
+      
+            </div>
+          
+        </div>
+        
+      </section>  
+</main>
+<footer>
+
+</footer>
 </body>
 </html>
