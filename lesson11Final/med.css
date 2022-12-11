@@ -169,7 +169,7 @@ body {
 .wrapper{
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 350px 280px 475px 200px 350px;
+    grid-template-rows: 350px 400px 475px 250px 350px;
     color: #e37d39;
   }
   body{
@@ -217,6 +217,8 @@ body {
     font-family: 'Lora', serif;
   }
   .new_release{
+    margin-top: 3rem;
+    margin-bottom: 4rem;
     background-color: white;
     padding: 15px;
     grid-column: 1/3;
@@ -246,6 +248,8 @@ body {
   #weather p{
     font-family: 'Lora', serif;
     color:#e37d39;
+    font-size: 20px;
+    padding-top: 0.5rem;
 
   }
   #weather h2{
@@ -264,7 +268,7 @@ body {
     padding-bottom: 1rem;
   }
   .temp p{
-    font-size: 2em;
+    font-size: 30px;
   }
   #weather span {
     padding-left: 10px;
@@ -272,10 +276,11 @@ body {
   
   
   .join{
+    margin-top: 3rem;
     grid-column: 1/3;
     grid-row: 4/5;
     background-color: white;
-    margin:8px;
+    margin:2rem;
     padding: 20px;
   }
   .join h2{
@@ -300,7 +305,7 @@ body {
     color: white;
     border-radius: 5px;
     margin-top:-100px;
-    margin-left:15rem;
+    margin-left:13rem;
 }
   .event{
     grid-row: 5/6;
@@ -311,7 +316,7 @@ body {
     grid-template-columns: 1fr 1fr;
   }
   .event h2{
-    color:#5F4944;
+    color: #02033B;
     text-align: center;
     font-family: 'Lora', serif;
     font-size:30px;
@@ -327,6 +332,7 @@ body {
     display: none;
   }
   .s1{
+    border-radius: 30px;
     grid-column: 1/2;
     grid-row:3/4;
     background-color: white;
@@ -345,11 +351,13 @@ body {
     margin: 1rem;
   }
   .s1 p{
+    padding: 1rem;
     color:#e37d39;
     font-family: 'Lora', serif;
     font-size: 20px;
   }
   .s2{
+    border-radius: 30px;
   grid-column: 2/3;
   grid-row:3/4;
     background-color: white;
@@ -367,6 +375,8 @@ body {
     width: 285px;
   }
   .s2 p{
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
     color:#e37d39;
     font-family: 'Lora', serif;
     font-size: 19px;
