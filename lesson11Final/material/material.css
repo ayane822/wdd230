@@ -93,6 +93,10 @@ footer{
 .info p a:hover, .n3 p a:hover{
     color: white;
 }
+.views {
+    width: 70px;
+    padding: 30px;
+}
 }
 /*Medium*/
 @media screen and (min-width:800px) and (max-width:1150px){
@@ -300,6 +304,10 @@ footer{
   .info p a:hover, .n3 p a:hover{
     color: white;
   }
+  .views {
+    width: 125px;
+    padding: 30px;
+}
 }
 /*SMALL*/
 @media screen and (max-width:800px) {
@@ -495,16 +503,20 @@ footer{
   .n3 p a:hover{
     color: white;
   }
+  .views {
+    width: 125px;
+    padding: 30px;
+}
 }    
 
 /*MAIN*/
+main{
+    font-family: 'Open Sans', sans-serif;
+}
 #content {
     width: 100%;
 } 
-.views {
-    width: 70px;
-    padding: 30px;
-}
+
 #views_box {
     text-align: center;
 }
@@ -513,17 +525,18 @@ footer{
     flex-wrap: wrap;
     justify-content: center;
 }
+.cards p{
+    padding-top: 1rem;
+}
 .cards section {
     border: 5px solid #e37d39;
     padding: 30px;
-    
     width: 300px;
     margin: 20px;
 }
 
 h2, h1  {
     text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
 }
 h3 {
     text-align: center;
