@@ -1,12 +1,12 @@
-//hamberger//
+// hamberger//
 
-const ham = document.querySelector('.ham');
-const navigation = document.querySelector('.navigation')
-function menu(){
-    navigation.classList.toggle('responsive');
-    ham.classList.toggle('responsive');
-}
-ham.addEventListener('click', menu,false);
+// const ham = document.querySelector('.ham');
+// const navigation = document.querySelector('.navigation')
+// function menu(){
+//     navigation.classList.toggle('responsive');
+//     ham.classList.toggle('responsive');
+// }
+// ham.addEventListener('click', menu,false);
 
 const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=1858296&appid=17512653d8d6020390bf626d84d1e193';
 
