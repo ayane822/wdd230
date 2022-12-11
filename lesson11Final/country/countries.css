@@ -34,6 +34,7 @@
     ul li a{
         grid-template-columns: 1/7;
         text-decoration: none;
+        color: #02033B;
     }
     .social {
         grid-column: 7/8;
@@ -350,7 +351,7 @@ picture h2{
 picture{
     width: 350px;
     display: block;
-    margin: 5rem; 
+    margin: 1rem; 
     border: 5px solid #e37d39;
 }   
 picture img{
