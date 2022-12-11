@@ -33,6 +33,7 @@
     ul li a{
         grid-template-columns: 1/7;
         text-decoration: none;
+        color: #02033B;
     }
     .social {
         grid-column: 7/8;
@@ -248,4 +249,40 @@ body{
     margin: 1.5rem;
 }
     
+/*Footer*/
+footer{
+    color: white;
+    background-color: #cd1815;
+    margin-top:  3rem;
+    
+}
+#parent{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 25% 45% 30%;
+}
+#last{
+    text-align: center;
+    border-top: 1px solid;
+    padding-bottom: 1rem;
+}
+#parent img{
+    width: 300px;
+    padding-top: 4rem;
+}
+.info p, .n3 p{
+    font-size: 20px;
+    font-family: 'Lora', serif;
+    
+}
+.info p a, .n3 p a {
+    color: white;
+    padding: 1rem;
+    text-decoration-line: none;
+}
+.info p a:hover, .n3 p a:hover{
+    color: white;
+}
+
+
 }
