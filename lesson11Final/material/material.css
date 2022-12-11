@@ -38,6 +38,7 @@ body{
     ul li a{
         grid-template-columns: 1/7;
         text-decoration: none;
+        color: #02033B;
     }
     .social {
         grid-column: 7/8;
@@ -57,6 +58,40 @@ body{
     gap:8px;
     background-color: antiquewhite;
     color: #e37d39;
+}
+/*Footer*/
+footer{
+    color: white;
+    background-color: #cd1815;
+    margin-top:  3rem;
+    
+}
+#parent{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 25% 45% 30%;
+}
+#last{
+    text-align: center;
+    border-top: 1px solid;
+    padding-bottom: 1rem;
+}
+#parent img{
+    width: 300px;
+    padding-top: 4rem;
+}
+.info p, .n3 p{
+    font-size: 20px;
+    font-family: 'Lora', serif;
+    
+}
+.info p a, .n3 p a {
+    color: white;
+    padding: 1rem;
+    text-decoration-line: none;
+}
+.info p a:hover, .n3 p a:hover{
+    color: white;
 }
 }
 /*Medium*/
@@ -225,6 +260,46 @@ body {
     display: block;
     transform: rotate(-45deg);
 }
+/*Footer*/
+footer{
+    color: white;
+    background-color: #cd1815;
+    margin-top:  3rem;
+    
+  }
+  #parent{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 25% 45% 30%;
+  }
+  #parent h2{
+    padding: 1rem;
+  }
+  #last{
+    text-align: center;
+    border-top: 1px solid;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+  #parent img{
+    width: 300px;
+    padding-top: 4rem;
+    padding-left: 1rem;
+  }
+  .info p, .n3 p{
+    padding: 0.5rem;
+    font-size: 20px;
+    font-family: 'Lora', serif;
+    
+  }
+  .info p a, .n3 p a {
+    color: white;
+    padding: 1rem;
+    text-decoration-line: none;
+  }
+  .info p a:hover, .n3 p a:hover{
+    color: white;
+  }
 }
 /*SMALL*/
 @media screen and (max-width:800px) {
@@ -377,6 +452,49 @@ body {
         display: block;
         transform: rotate(-45deg);
     }
+    /*Footer*/
+footer{
+    color: white;
+    background-color: #cd1815;
+    margin-top:  3rem;
+    
+  }
+  #parent{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+  }
+  #parent h2{
+    padding: 1rem;
+  }
+  #last{
+    text-align: center;
+    border-top: 1px solid;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+  #parent img{
+    width: 250px;
+    padding-top: 4rem;
+    padding-left: 1rem;
+  }
+  .info{
+      display: none;
+  }
+  .n3 p{
+    padding: 0.5rem;
+    font-size: 20px;
+    font-family: 'Lora', serif;
+    
+  }
+    .n3 p a {
+    color: white;
+    padding: 1rem;
+    text-decoration-line: none;
+  }
+  .n3 p a:hover{
+    color: white;
+  }
 }    
 
 /*MAIN*/

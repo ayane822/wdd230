@@ -1,6 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital@1&family=Recursive&family=Rowdies:wght@300&display=swap');
 /*LARGE*/
 @media screen and (min-width: 1150px){
+    /*Footer*/
+footer{
+    color: white;
+    background-color: #cd1815;
+    margin-top:  3rem;
+    
+}
+#parent{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 25% 45% 30%;
+}
+#last{
+    text-align: center;
+    border-top: 1px solid;
+    padding-bottom: 1rem;
+}
+#parent img{
+    width: 300px;
+    padding-top: 4rem;
+}
+.info p, .n3 p{
+    font-size: 20px;
+    font-family: 'Lora', serif;
+    
+}
+.info p a, .n3 p a {
+    color: white;
+    padding: 1rem;
+    text-decoration-line: none;
+}
+.info p a:hover, .n3 p a:hover{
+    color: white;
+}
     /* Header! */
     #header{
         display:grid;
@@ -57,6 +91,46 @@
 }
 /*Medium*/
 @media screen and (min-width:800px) and (max-width:1150px){
+    /*Footer*/
+footer{
+    color: white;
+    background-color: #cd1815;
+    margin-top:  3rem;
+    
+  }
+  #parent{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 25% 45% 30%;
+  }
+  #parent h2{
+    padding: 1rem;
+  }
+  #last{
+    text-align: center;
+    border-top: 1px solid;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+  #parent img{
+    width: 300px;
+    padding-top: 4rem;
+    padding-left: 1rem;
+  }
+  .info p, .n3 p{
+    padding: 0.5rem;
+    font-size: 20px;
+    font-family: 'Lora', serif;
+    
+  }
+  .info p a, .n3 p a {
+    color: white;
+    padding: 1rem;
+    text-decoration-line: none;
+  }
+  .info p a:hover, .n3 p a:hover{
+    color: white;
+  }
     /*Header!*/
     #header{
         display:grid;
@@ -224,6 +298,50 @@ body {
 }
 /*SMALL*/
 @media screen and (max-width:800px) {
+
+/*Footer*/
+footer{
+    color: white;
+    background-color: #cd1815;
+    margin-top:  3rem;
+    
+  }
+  #parent{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+  }
+  #parent h2{
+    padding: 1rem;
+  }
+  #last{
+    text-align: center;
+    border-top: 1px solid;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+  #parent img{
+    width: 250px;
+    padding-top: 4rem;
+    padding-left: 1rem;
+  }
+  .info{
+      display: none;
+  }
+  .n3 p{
+    padding: 0.5rem;
+    font-size: 20px;
+    font-family: 'Lora', serif;
+    
+  }
+    .n3 p a {
+    color: white;
+    padding: 1rem;
+    text-decoration-line: none;
+  }
+  .n3 p a:hover{
+    color: white;
+  }
     #header{
             display:grid;
             grid-template-columns: repeat(4,1fr);
@@ -429,8 +547,8 @@ span{
     font-size: 20px;
 }
 
-div{
+/* div{
     display: block;
     font-family: 'Lora', serif;
     color: black;
-}
+} */
