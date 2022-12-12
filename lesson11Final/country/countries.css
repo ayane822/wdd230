@@ -108,18 +108,18 @@ main{
     3px 4px #bbb,
     4px 8px 6px #000000;
 }
-picture h2{
+main div h2{
     border-bottom: 5px double #02033B   ;
     
 }
-picture{
+.c1, .c2, .c3, .c4, .c5, .c6, .c7, .c8, .c8, .c9, .c10, .c11{
     width: 350px;
     display: block;
     margin: 1rem; 
     margin-bottom: 7rem;
     border: 5px solid #e37d39;
 }   
-picture img{
+main div img{
     margin: 1rem;
 }
 }
@@ -350,17 +350,17 @@ main{
     3px 4px #bbb,
     4px 8px 6px #000000;
 }
-picture h2{
+main div h2{
     border-bottom: 5px double #02033B   ;
     
 }
-picture{
+main div{
     width: 350px;
     display: block;
     margin: 1rem; 
     border: 5px solid #e37d39;
 }   
-picture img{
+main div img{
     margin: 1rem;
 }
 
@@ -536,17 +536,17 @@ picture img{
     3px 4px #bbb,
     4px 8px 6px #000000;
     }
-    picture h2{
+    main div h2{
         border-bottom: 5px double #02033B   ;
         
     }
-    picture{
+    main div{
         width: 350px;
         display: block;
         margin: 5rem; 
         border: 5px solid #e37d39;
     }   
-    picture img{
+    main div img{
         margin: 1rem;
     }
     
