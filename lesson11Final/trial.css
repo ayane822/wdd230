@@ -72,6 +72,7 @@ footer{
     ul li a{
         grid-column: 1/7;
         text-decoration: none;
+        color: #02033B;
     }
     .social {
         grid-column: 7/8;
