@@ -6,12 +6,12 @@
     }
 #logo {
     width:100px;
-    grid-template-columns: 2/3;
+    grid-column: 2/3;
     margin-left: 100px;
 
 }
 .social img {
-    grid-template-columns: 4/5;
+    grid-column: 4/5;
     width: 55px;
 }
 .social{
@@ -19,7 +19,7 @@
    text-align: right;
 }
 h1{
-    grid-template-columns: 3/4;
+    grid-column: 3/4;
     margin-left: 45px;
     font-family: 'Lora', serif;
 }
