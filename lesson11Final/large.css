@@ -18,9 +18,9 @@
         display:none;
     }
     ul.menu-items{
-        margin-right: -35rem;
-        margin-left: -2rem;
-        grid-template-columns: 3/7;
+        margin-right: -8rem;
+        margin-left: -1rem;
+        grid-column: 3/6;
     }
     ul {
         display: grid;
@@ -240,7 +240,6 @@ body{
 }
 .s3 img{
     width:225px;
-    padding-bottom: -15px;
 }
 .s3 p{
     font-size: 18px;
