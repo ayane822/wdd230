@@ -19,9 +19,9 @@
         display:none;
     }
     ul.menu-items{
-        margin-right: -35rem;
-        margin-left: -2rem;
-        grid-template-columns: 3/7;
+        margin-right: -8rem;
+        margin-left: -1rem;
+        grid-column: 3/6;
     }
     ul {
         display: grid;
@@ -32,7 +32,7 @@
 
     }
     ul li a{
-        grid-template-columns: 1/7;
+        grid-column: 1/7;
         text-decoration: none;
         color: #02033B;
     }
@@ -376,11 +376,11 @@ picture img{
         }
     #logo {
         width:100px;
-        grid-template-columns: 2/3;
+        grid-column: 2/3;
         margin-left: 100px;
     }
     .social img {
-        grid-template-columns: 4/5;
+        grid-column: 4/5;
         width: 55px;
     }
     .social{
@@ -388,7 +388,7 @@ picture img{
        text-align: right;
     }
     h1{
-        grid-template-columns: 3/4;
+        grid-column: 3/4;
         margin-left: 45px;
         font-family: 'Lora', serif;
     }
